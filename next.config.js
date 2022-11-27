@@ -1,4 +1,5 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
-    reactStrictMode: true,
-  }
+  basePath: "/gh-pages-test",
+  reactStrictMode: true,
+};
