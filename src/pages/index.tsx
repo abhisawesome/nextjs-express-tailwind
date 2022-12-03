@@ -18,7 +18,7 @@ export default function Home() {
     <ul>
       <li>
         <Link href="/a" as="/a">
-          <span className='text-green-500'>a</span>
+          <span className='text-green-500'>ab</span>
         </Link>
       </li>
       <li>
