@@ -1,13 +1,13 @@
 {
   "name": "abhisawz-next-cli",
-  "version": "1.0.36",
-  "description": "",
+  "version": "1.0.37",
+  "description": "Experimental project for running a nextjs server using cli",
   "main": "./bin/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon",
     "build": "next build && tsc --project tsconfig.server.json",
-    "start": "cross-env NODE_ENV=production node dist/server.js",
+    "start": "NODE_ENV=production node server.js",
     "deploy": "next build && touch out/.nojekyll && git add out/ && git commit -m \"Deploy\" && git subtree push --prefix out origin gh-pages"
   },
   "bin": {

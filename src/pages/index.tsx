@@ -14,11 +14,11 @@ export default function Home() {
   },[])
   return (
     <>
-    <span className="text-sm text-red-500">Sample plat</span>
+    <span>Experimental project</span>
     <ul>
       <li>
         <Link href="/a" as="/a">
-          <span className='text-green-500'>ab</span>
+          <span className='text-green-500'>a</span>
         </Link>
       </li>
       <li>
