@@ -7,3 +7,6 @@
 ```
 npx abhisawz-next-cli
 ```
+
+
+[live demo](https://nextjs-express-tailwind.vercel.app/)
